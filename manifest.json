@@ -1,0 +1,271 @@
+{
+  "id": "io.github.xoac.cleanshotx",
+  "name": "CleanShot X",
+  "version": "1.0.0",
+  "description": "Control CleanShot X from Asyar: 15 commands for capture (area, fullscreen, window, previous area, self-timer, scrolling, OCR), screen recording, history and desktop icons.",
+  "author": "Sylwester Rąpała",
+  "icon": "📸",
+  "type": "extension",
+  "asyarSdk": "^4.15.0",
+  "platforms": [
+    "macos"
+  ],
+  "permissions": [
+    "shell:open-url"
+  ],
+  "permissionArgs": {
+    "shell:open-url": [
+      "cleanshot"
+    ]
+  },
+  "commands": [
+    {
+      "id": "capture-area",
+      "name": "Capture Area",
+      "description": "Capture a selected screen area with CleanShot X",
+      "mode": "background",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "After capture (optional)",
+          "required": false,
+          "seed": "none",
+          "data": [
+            {
+              "value": "copy",
+              "title": "Copy to clipboard"
+            },
+            {
+              "value": "save",
+              "title": "Save"
+            },
+            {
+              "value": "annotate",
+              "title": "Annotate"
+            },
+            {
+              "value": "upload",
+              "title": "Upload to Cloud"
+            },
+            {
+              "value": "pin",
+              "title": "Pin to screen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capture-fullscreen",
+      "name": "Capture Fullscreen",
+      "description": "Capture the whole screen with CleanShot X",
+      "mode": "background",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "After capture (optional)",
+          "required": false,
+          "seed": "none",
+          "data": [
+            {
+              "value": "copy",
+              "title": "Copy to clipboard"
+            },
+            {
+              "value": "save",
+              "title": "Save"
+            },
+            {
+              "value": "annotate",
+              "title": "Annotate"
+            },
+            {
+              "value": "upload",
+              "title": "Upload to Cloud"
+            },
+            {
+              "value": "pin",
+              "title": "Pin to screen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "record-screen",
+      "name": "Record Screen",
+      "description": "Start or stop a screen recording in CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "open-history",
+      "name": "Open History",
+      "description": "Show the CleanShot X capture history",
+      "mode": "background"
+    },
+    {
+      "id": "capture-window",
+      "name": "Capture Window",
+      "description": "Capture a window with CleanShot X",
+      "mode": "background",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "After capture (optional)",
+          "required": false,
+          "seed": "none",
+          "data": [
+            {
+              "value": "copy",
+              "title": "Copy to clipboard"
+            },
+            {
+              "value": "save",
+              "title": "Save"
+            },
+            {
+              "value": "annotate",
+              "title": "Annotate"
+            },
+            {
+              "value": "upload",
+              "title": "Upload to Cloud"
+            },
+            {
+              "value": "pin",
+              "title": "Pin to screen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capture-previous-area",
+      "name": "Capture Previous Area",
+      "description": "Capture the previously selected area again with CleanShot X",
+      "mode": "background",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "After capture (optional)",
+          "required": false,
+          "seed": "none",
+          "data": [
+            {
+              "value": "copy",
+              "title": "Copy to clipboard"
+            },
+            {
+              "value": "save",
+              "title": "Save"
+            },
+            {
+              "value": "annotate",
+              "title": "Annotate"
+            },
+            {
+              "value": "upload",
+              "title": "Upload to Cloud"
+            },
+            {
+              "value": "pin",
+              "title": "Pin to screen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "self-timer",
+      "name": "Self Timer",
+      "description": "Capture with a countdown timer in CleanShot X",
+      "mode": "background",
+      "arguments": [
+        {
+          "name": "action",
+          "type": "dropdown",
+          "placeholder": "After capture (optional)",
+          "required": false,
+          "seed": "none",
+          "data": [
+            {
+              "value": "copy",
+              "title": "Copy to clipboard"
+            },
+            {
+              "value": "save",
+              "title": "Save"
+            },
+            {
+              "value": "annotate",
+              "title": "Annotate"
+            },
+            {
+              "value": "upload",
+              "title": "Upload to Cloud"
+            },
+            {
+              "value": "pin",
+              "title": "Pin to screen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scrolling-capture",
+      "name": "Scrolling Capture",
+      "description": "Start a scrolling capture in CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "all-in-one",
+      "name": "All in One",
+      "description": "Open the CleanShot X All-in-One mode",
+      "mode": "background"
+    },
+    {
+      "id": "capture-text",
+      "name": "Capture Text (OCR)",
+      "description": "Recognize text from a screen area with CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "open-from-clipboard",
+      "name": "Open from Clipboard",
+      "description": "Open the clipboard image in CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "toggle-desktop-icons",
+      "name": "Toggle Desktop Icons",
+      "description": "Toggle desktop icon visibility via CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "hide-desktop-icons",
+      "name": "Hide Desktop Icons",
+      "description": "Hide the desktop icons via CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "show-desktop-icons",
+      "name": "Show Desktop Icons",
+      "description": "Show the desktop icons via CleanShot X",
+      "mode": "background"
+    },
+    {
+      "id": "restore-recently-closed",
+      "name": "Restore Recently Closed",
+      "description": "Restore the last closed CleanShot X Quick Access overlay",
+      "mode": "background"
+    }
+  ],
+  "background": {
+    "main": "dist/worker.js"
+  }
+}
