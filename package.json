@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "description": "Control CleanShot X from Asyar: 15 commands for capture (area, fullscreen, window, previous area, self-timer, scrolling, OCR), screen recording, history and desktop icons.",
+  "description": "Screenshot and screen recording commands for macOS: capture area, window, scrolling page, OCR, record screen. Requires CleanShot X.",
   "type": "module",
   "scripts": {
     "build": "vite build",
