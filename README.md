@@ -1,10 +1,10 @@
-# Screenshot & Screen Recording for Asyar
+# Control CleanShot X for Asyar
 
-Screenshot and screen recording commands for the [Asyar](https://github.com/Xoshbin/asyar) launcher: capture an area,
+Control [CleanShot X](https://cleanshot.com/) from the [Asyar](https://github.com/Xoshbin/asyar) launcher: capture an area,
 fullscreen, a window or a scrolling page, OCR text, record the screen, and more. Each command hides the launcher and then
-triggers [CleanShot X](https://cleanshot.com/) through its `cleanshot://` URL scheme, so CleanShot X is required. macOS only.
+triggers CleanShot X through its `cleanshot://` URL scheme, so CleanShot X is required. macOS only.
 
-This is an independent project and is not affiliated with or endorsed by MTW Labs / CleanShot.
+This is an independent project and is not affiliated with or endorsed by the developers of CleanShot X.
 
 Ported from the [Raycast `cleanshotx` extension](https://github.com/raycast/extensions/tree/main/extensions/cleanshotx)
 (MIT, by Aayush9029). Only the URL-scheme commands are ported; see "Not ported" below.

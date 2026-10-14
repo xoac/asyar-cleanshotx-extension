@@ -1,8 +1,8 @@
 {
   "id": "io.github.xoac.cleanshotx",
-  "name": "Screenshot & Screen Recording",
-  "version": "1.0.0",
-  "description": "Screenshot and screen recording commands for macOS: capture area, window, scrolling page, OCR, record screen. Requires CleanShot X.",
+  "name": "Control CleanShot X",
+  "version": "1.0.1",
+  "description": "Control CleanShot X from Asyar: capture area, window, scrolling page, OCR, record screen and more. Requires CleanShot X.",
   "author": "Sylwester Rąpała",
   "icon": "📸",
   "type": "extension",

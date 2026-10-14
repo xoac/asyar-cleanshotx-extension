@@ -1,9 +1,9 @@
 {
   "name": "io.github.xoac.cleanshotx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "license": "MIT",
-  "description": "Screenshot and screen recording commands for macOS: capture area, window, scrolling page, OCR, record screen. Requires CleanShot X.",
+  "description": "Control CleanShot X from Asyar: capture area, window, scrolling page, OCR, record screen and more. Requires CleanShot X.",
   "type": "module",
   "scripts": {
     "build": "vite build",
